@@ -12,5 +12,9 @@
     "node"
   ],
   "author": "Daniel Santos <dsantos0495@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "eldan1-time": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
