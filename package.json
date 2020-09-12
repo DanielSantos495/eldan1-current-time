@@ -1,6 +1,6 @@
 {
   "name": "eldan1-current-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show hour",
   "main": "src/index.js",
   "scripts": {
