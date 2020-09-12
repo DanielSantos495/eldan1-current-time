@@ -14,7 +14,15 @@
   "author": "Daniel Santos <dsantos0495@gmail.com>",
   "license": "MIT",
   "bin": {
-    "eldan1-current-time": "./bin/global.js"
+    "eldan1-current-time": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSantos495/eldan1-current-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielSantos495/eldan1-current-time/issues"
+  },
+  "homepage": "https://github.com/DanielSantos495/eldan1-current-time#readme"
 }
