@@ -27,21 +27,21 @@ const currentHour = () => {
     } else if ( hours >= twelveHoursNumber[0] && hours < twelveHoursNumber[6] ) {
       // Tanda afternoon
       console.log(`Hora actual: ${time(hours, 'PM')}`);
-      if(hours === twelveHoursNumber[0]) console.log(`${twelveHoursName[0]} de la tarde.`);
-      if(hours === twelveHoursNumber[1]) console.log(`${twelveHoursName[1]} de la tarde.`);
-      if(hours === twelveHoursNumber[2]) console.log(`${twelveHoursName[2]} de la tarde.`);
-      if(hours === twelveHoursNumber[3]) console.log(`${twelveHoursName[3]} de la tarde.`);
-      if(hours === twelveHoursNumber[4]) console.log(`${twelveHoursName[4]} de la tarde.`);
-      if(hours === twelveHoursNumber[5]) console.log(`${twelveHoursName[5]} de la tarde.`);
+      if(hours === twelveHoursNumber[0]) console.log(`Hora actual:  ${twelveHoursName[0]} de la tarde.`);
+      if(hours === twelveHoursNumber[1]) console.log(`Hora actual:  ${twelveHoursName[1]} de la tarde.`);
+      if(hours === twelveHoursNumber[2]) console.log(`Hora actual:  ${twelveHoursName[2]} de la tarde.`);
+      if(hours === twelveHoursNumber[3]) console.log(`Hora actual:  ${twelveHoursName[3]} de la tarde.`);
+      if(hours === twelveHoursNumber[4]) console.log(`Hora actual:  ${twelveHoursName[4]} de la tarde.`);
+      if(hours === twelveHoursNumber[5]) console.log(`Hora actual:  ${twelveHoursName[5]} de la tarde.`);
 
     } else if ( hours >= twelveHoursNumber[6] && hours < twelveHoursNumber[11] ) {
       // Tanda night
       console.log(`Hora actual: ${time(hours,'PM')}`);
-      if(hours === twelveHoursNumber[6]) console.log(`${twelveHoursName[6]} de la noche.`);
-      if(hours === twelveHoursNumber[7]) console.log(`${twelveHoursName[7]} de la noche.`);
-      if(hours === twelveHoursNumber[8]) console.log(`${twelveHoursName[8]} de la noche.`);
-      if(hours === twelveHoursNumber[9]) console.log(`${twelveHoursName[9]} de la noche.`);
-      if(hours === twelveHoursNumber[10]) console.log(`${twelveHoursName[10]} de la noche.`);
+      if(hours === twelveHoursNumber[6]) console.log(`Hora actual:  ${twelveHoursName[6]} de la noche.`);
+      if(hours === twelveHoursNumber[7]) console.log(`Hora actual:  ${twelveHoursName[7]} de la noche.`);
+      if(hours === twelveHoursNumber[8]) console.log(`Hora actual:  ${twelveHoursName[8]} de la noche.`);
+      if(hours === twelveHoursNumber[9]) console.log(`Hora actual:  ${twelveHoursName[9]} de la noche.`);
+      if(hours === twelveHoursNumber[10]) console.log(`Hora actual:  ${twelveHoursName[10]} de la noche.`);
 
     }
 
@@ -58,25 +58,25 @@ const currentHour = () => {
     if ( hours >= twelveHoursNumber[0] && hours < twelveHoursNumber[5] ) {
       // Tanda early mornig
       console.log(`Hora actual: ${time(hours,'AM')}`);
-      if(hours === twelveHoursNumber[0]) console.log(`${twelveHoursName[0]} de la madrugada.`);
-      if(hours === twelveHoursNumber[1]) console.log(`${twelveHoursName[1]} de la madrugada.`);
-      if(hours === twelveHoursNumber[2]) console.log(`${twelveHoursName[2]} de la madrugada.`);
-      if(hours === twelveHoursNumber[3]) console.log(`${twelveHoursName[3]} de la madrugada.`);
-      if(hours === twelveHoursNumber[4]) console.log(`${twelveHoursName[4]} de la madrugada.`);
+      if(hours === twelveHoursNumber[0]) console.log(`Hora actual:  ${twelveHoursName[0]} de la madrugada.`);
+      if(hours === twelveHoursNumber[1]) console.log(`Hora actual:  ${twelveHoursName[1]} de la madrugada.`);
+      if(hours === twelveHoursNumber[2]) console.log(`Hora actual:  ${twelveHoursName[2]} de la madrugada.`);
+      if(hours === twelveHoursNumber[3]) console.log(`Hora actual:  ${twelveHoursName[3]} de la madrugada.`);
+      if(hours === twelveHoursNumber[4]) console.log(`Hora actual:  ${twelveHoursName[4]} de la madrugada.`);
 
     } else if ( hours >= twelveHoursNumber[5] && hours < twelveHoursNumber[11] ) {
       // Tanda morning
       console.log(`Hora actual: ${time(hours,'AM')}`);
-      if(hours === twelveHoursNumber[5]) console.log(`${twelveHoursName[5]} de la mañana.`);
-      if(hours === twelveHoursNumber[6]) console.log(`${twelveHoursName[6]} de la mañana.`);
-      if(hours === twelveHoursNumber[7]) console.log(`${twelveHoursName[7]} de la mañana.`);
-      if(hours === twelveHoursNumber[8]) console.log(`${twelveHoursName[8]} de la mañana.`);
-      if(hours === twelveHoursNumber[9]) console.log(`${twelveHoursName[9]} de la mañana.`);
-      if(hours === twelveHoursNumber[10]) console.log(`${twelveHoursName[10]} de la mañana.`);
+      if(hours === twelveHoursNumber[5]) console.log(`Hora actual:  ${twelveHoursName[5]} de la mañana.`);
+      if(hours === twelveHoursNumber[6]) console.log(`Hora actual:  ${twelveHoursName[6]} de la mañana.`);
+      if(hours === twelveHoursNumber[7]) console.log(`Hora actual:  ${twelveHoursName[7]} de la mañana.`);
+      if(hours === twelveHoursNumber[8]) console.log(`Hora actual:  ${twelveHoursName[8]} de la mañana.`);
+      if(hours === twelveHoursNumber[9]) console.log(`Hora actual:  ${twelveHoursName[9]} de la mañana.`);
+      if(hours === twelveHoursNumber[10]) console.log(`Hora actual:  ${twelveHoursName[10]} de la mañana.`);
 
     }
 
   }
 }
-
+currentHour()
 module.exports = { currentHour }
