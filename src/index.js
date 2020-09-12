@@ -78,5 +78,5 @@ const currentHour = () => {
 
   }
 }
-
+currentHour()
 module.exports = { currentHour }
