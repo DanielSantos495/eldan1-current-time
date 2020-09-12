@@ -19,7 +19,7 @@ eldan1-current-time is released under the MIT License.
 MIT - This licenses allow that is software be used for create new software and also can be improved.
 
 # Version
-eldan1-current-time@1.01
+eldan1-current-time@1.02
 
 # Launching
 
